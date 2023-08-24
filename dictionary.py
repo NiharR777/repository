@@ -1,5 +1,5 @@
 country_capitals = {
   "United States": "Washington D.C.","Italy": "Naples","England": "London"
 }
-country_capitals["Germany"] = "Berlin"
+del country_capitals["United States"]
 print(country_capitals)
