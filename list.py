@@ -1,4 +1,6 @@
-ages =  [19, 26, 23, 58, 64, 77]
-print(ages[0])
-print(ages[5])
-print(ages[3])
+names =  ['N','I','H','A','R','.','R','G','O','W','D','A','7']
+print(names[2:6])
+print(names[5:])
+print(names[3:7])
+print(names[1:4])
+print(names[:])
