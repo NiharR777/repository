@@ -1,5 +1,6 @@
 country_capitals = {
-  "United States": "Washington D.C.","Italy": "Naples","England": "London"
+  'United States': 'Washington D.C.','Italy': 'Naples','England': 'London'
 }
-del country_capitals["United States"]
-print(country_capitals)
+elements = country_capitals.pop('United States')
+print('the popped element is:', elements)
+print('the dict is:',country_capitals)
