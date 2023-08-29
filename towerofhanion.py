@@ -7,3 +7,8 @@ def TowerOfHanoi(n,source,destination,auxiliary):
     TowerOfHanoi(n-1,auxiliary,destination,source)
 n = 4
 TowerOfHanoi(n,'A','B','C')
+
+##list
+print("\nList")
+list=[12,23,86,98,77,45,84]
+print(sum(list))
